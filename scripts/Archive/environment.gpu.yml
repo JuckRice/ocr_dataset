@@ -1,0 +1,17 @@
+name: ocr-transformer
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - pip:
+      - timm>=0.9.16
+      - numpy
+      - pillow
+      - tqdm
+      - editdistance
